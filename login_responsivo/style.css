@@ -1,0 +1,390 @@
+*{
+
+    padding: 0;
+    margin: 0;
+}
+
+.box-verde{
+    position: relative;
+    height: 600px;
+    width: 450px;
+    background-color: rgb(77, 0, 102);
+    border-radius: 15px;
+
+}
+
+.box-branca{
+    position: relative;
+    left: 420px;
+    bottom: 600px;
+    height: 600px;
+    width: 500px;
+    background-color: rgb(255, 255, 255);
+    
+    
+
+}
+
+.container{
+
+    background-color: rgb(255, 255, 255);
+    width: 1000px;
+    height: 600px;
+    display: inline-block;
+    border-radius: 15px;
+    margin-top: 40px;
+    border-radius: 15px;
+    
+
+}
+
+main{
+
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+   
+
+}
+
+body{
+
+    background-color: rgb(146, 146, 146);
+
+}
+
+main{
+
+    border-radius: 15px;
+
+}
+
+#titulo1{
+
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    color:white; 
+    position: relative;
+    top:130px;
+
+}
+
+#frase1{
+
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    color:white; 
+    position: relative;
+    top:140px;
+    font-weight: 100;
+    opacity: 0.7;
+
+
+
+}
+
+#frase2{
+
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    color:white; 
+    position: relative;
+    top:140px;
+    font-weight: 100;
+    opacity: 0.7;
+
+
+}
+
+#botaoverde{
+    appearance: none;
+
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    color:white; 
+    position: relative;
+    top:180px;
+    font-weight: 100;
+    opacity: 0.7;
+    background-color: transparent;
+    height: 40px;
+    width: 150px;
+    border-radius: 50px;
+    border-color: white;
+    left: 145px;
+    font-weight: 400;
+    padding: 10px;
+
+
+    
+
+}
+
+
+#botaoverde:hover{
+
+    background-color: red;
+    cursor: pointer;
+}
+
+#titulo2{
+
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    color: rgb(77, 0, 102);
+    top:120px;
+    position: relative;
+    left: 25px;
+
+}
+
+.icons{
+
+    color: rgb(128, 128, 128);
+    background-color: transparent;
+    position: relative;
+    top: 160px;
+    left: 205px;
+
+}
+
+#face{
+
+    border: 1px;
+    background-color: rgba(76, 0, 102, 0.523);
+    height: 25px;
+    width: 25px;
+    border-radius: 50px;
+    padding: 6px;
+    padding-top: 5px;
+    font-size: 20px;
+    border-color: red;
+    
+}
+
+#goo{
+
+    border: 1px;
+    background-color: rgba(76, 0, 102, 0.523);
+    height: 25px;
+    width: 25px;
+    border-radius: 50px;
+padding: 6px;
+padding-top: 5px;
+font-size: 20px;
+margin-left: 15px;
+}
+
+#link{
+
+    border: 1px;
+    background-color: rgba(76, 0, 102, 0.523);
+    height: 25px;
+    width: 25px;
+    border-radius: 50px;
+padding: 6px;
+padding-top: 5px;
+font-size: 20px;
+margin-left: 15px;
+}
+
+#frase3{
+
+    position: relative;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    left: 24px;
+    top:185px;
+    color: rgb(49, 49, 49);
+
+}
+
+.caixa{
+
+    
+    position: relative;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    top: 220px;
+
+}
+
+#caixa1{
+
+    background-color: rgba(172, 172, 172, 0.578);
+    height: 35px;
+    width: 275px;
+    left: 25px;
+    position: relative;
+    border: none;
+    
+
+}
+
+
+#caixa2{
+
+    background-color: rgba(172, 172, 172, 0.578);
+    height: 35px;
+    width: 275px;
+    left: 25px;
+    position: relative;
+    top: 15px;
+    border: none;
+
+}
+
+
+
+#caixa3{
+
+    background-color: rgba(172, 172, 172, 0.578);
+    height: 35px;
+    width: 275px;
+    left: 25px;
+    position: relative;
+    top: 30px;
+    border: none;
+    
+
+}
+
+#botaoenvia{
+
+    background-color: rgb(77, 0, 102);
+    position: relative;
+    top: 285px;
+    height: 40px;
+    width: 150px;
+    border-radius: 50px;
+    left: 200px;
+    color: white;
+
+}
+
+@media only screen and (max-width: 850px) {
+    .box-verde {
+        left: 275px;
+        
+
+
+      
+    }
+  }
+
+  @media only screen and (max-width: 850px) {
+    .box-branca {
+
+        top: 0px;
+        left: 275px;
+        background-color: rgb(255, 255, 255);
+        width: 450px;
+        border-radius: 10px;
+     
+
+      
+    }
+  }
+
+  @media only screen and (max-width: 850px) {
+    .container{
+height: 1250px;
+background-color: rgb(146, 146, 146);
+     
+
+      
+    }
+  }
+
+  
+  @media only screen and (max-width: 850px) {
+    .caixa{
+    left:-25px;
+   
+     
+
+      
+    }
+  }
+
+  @media only screen and (max-width: 850px) {
+    #frase3{
+    left:-10px;
+    content: "Mobile";
+   
+     
+
+      
+    }
+  }
+  
+  @media only screen and (max-width: 850px) {
+    #titulo2{
+    left:-5px;
+    content: "Mobile";
+   
+     
+
+      
+    }
+  }
+
+  @media only screen and (max-width: 850px) {
+   #botaoenvia{
+    left:150px;
+    content: "Mobile";
+   
+     
+
+      
+    }
+  }
+
+
+
+    
+  @media only screen and (max-width: 850px) {
+    .icons{
+    position: relative;
+    left:150px;
+   
+     
+
+      
+    }
+  }
+
+  #imagem{
+
+    height: 250px;
+    width: 250px;
+    left: -325px;
+    top: 60px;
+    position: relative;
+
+  }
+
+  @media only screen and (max-width: 850px) {
+    #imagem{
+    position: relative;
+    left:95px;
+    top: -520px;
+   
+     
+
+      
+    }
+  }
+
+ 
+
+
+
+
